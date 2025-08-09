@@ -44,7 +44,6 @@
     color: rgb(165, 157, 157);
 }
 
-.Searchbtn {}
 
 .btnbg {
     background-color: #ffe1d2;
@@ -54,7 +53,31 @@
 
 .Searchbtn {
     width: 47%;
-        height: 50%;
+    height: 50%;
     margin-left: 10px;
     margin-top: 10px;
+}
+
+.fa-cart-shopping {
+    color: white;
+    font-size: 24px;
+    padding-left: 27px;
+    cursor: pointer;
+}
+
+.img-container {
+    display: flex;
+    align-items: center; /* vertically center */
+    gap: 2px; /* space between the two images */
+}
+
+.img1 {
+    width: 74%;
+    height: 66%;
+    margin-left: 80px;
+}
+
+.img2 {
+    width: 15%;
+    height: 12%;
 }
